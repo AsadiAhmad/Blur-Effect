@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(./colory.avif);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+div.text-conteiner {
+    background-color: gray;
+    width: 50%;
+    margin: auto;
+}
+
+p.text {
+    padding: 50px;
+    text-align: justify;
+}
+
+div.blur-glass {
+    height: 300px;
+    width: 70%;
+    position: fixed;
+    top: 100px;
+    right: 15%;
+    background-color: rgba(220, 220, 220, 0.3);
+    backdrop-filter: blur(5px);
+    z-index: 10;
+}
